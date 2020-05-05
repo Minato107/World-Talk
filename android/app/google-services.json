@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "248053298625",
+    "firebase_url": "https://worldchat-7ed3f.firebaseio.com",
+    "project_id": "worldchat-7ed3f",
+    "storage_bucket": "worldchat-7ed3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248053298625:android:83381c83a0e1609dca2b40",
+        "android_client_info": {
+          "package_name": "com.rickfuckers.www.world_chat1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248053298625-t7h6nqevqe0qb93444e31kvvurd2c9sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKIGlZybo5HQtqy_USPrb34yxQ14HCBrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248053298625-t7h6nqevqe0qb93444e31kvvurd2c9sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

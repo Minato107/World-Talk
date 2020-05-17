@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:world_chat1/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:world_chat1/screens/search_screen.dart';
+import 'package:world_chat1/screens/welcome_screen.dart';
 import '../widgets/round_button.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -68,6 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       email: email, password: password);
                   Navigator.pushNamed(context, SearchScreen.id);
                 }catch(e){
+                  Navigator.pushNamed(context, WelcomeScreen.id);
                   print(e);
                 }
               },
